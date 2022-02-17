@@ -4,7 +4,7 @@
 	"name": "Demo Gauge",
 	"description": "A gauge demo",
 	"newInstancePrefix": "Gauge",
-	"icon": "https://github.com/dhanlabs/CWSAC/blob/main/box/icon.png?raw=true",
+	"icon": "https://dhanlabs.github.io/box/icon.png",
 	"vendor": "AVI",
 	"eula": "EULA",
 	"license": "1.0",
@@ -12,30 +12,30 @@
 		{
 			"kind": "main",
 			"tag": "com-demo-gauge",
-			"url": "https://raw.githubusercontent.com/dhanlabs/CWSAC/main/box/box.js",
+			"url": "https://dhanlabs.github.io/box/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
 			"tag": "com-demo-gauge-sps",
-			"url": "https://raw.githubusercontent.com/dhanlabs/CWSAC/main/box/box_sps.js",
+			"url": "https://dhanlabs.github.io/box/box_sps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "builder",
 			"tag": "com-demo-box-bps",
-			"url": "https://raw.githubusercontent.com/dhanlabs/CWSAC/main/box/box_bps.js",
+			"url": "https://dhanlabs.github.io/box/box_bps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
 	],
 	"properties": {
 		"value": {
-			"type": "number",
+			"type": "integer",
 			"description": "Gauge value",
-			"default": 0
+			"default": 30
 		},
 		"info": {
 			"type": "string",
